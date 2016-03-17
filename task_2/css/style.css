@@ -1,0 +1,162 @@
+*{ margin: 0px; padding: 0px; font-family: "Microsoft Yahei"; }
+body{ 
+	background-color: #d3d3d3; 
+}
+
+/*header*/
+header{ 
+	width: 100%; 
+	height: 77px; 
+	background-image: url(../img/bg.png);
+	position: relative; top: 0px; left: 0px; 
+}
+nav ul{
+	position: absolute; top: 25px; right: 10px;
+}
+nav ul li{
+	float: left;
+	margin: 0px 13px;
+}
+nav ul li a{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #d3d3d3;
+}
+
+/*section*/
+section,aside{
+	width: 1180px;
+	background-color: #fff;
+	font-size: 14px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 3px 3px 4px #808080;
+}
+.title1{
+	line-height: 50px;
+}
+.title2{
+	line-height: 30px;
+	color: #808080;
+}
+.author,time{
+	font-size: 12px;
+	color: #808080;
+	line-height: 50px;
+}
+section p{ 
+	text-indent: 2em; 
+}
+section .content_img{
+	display:inline-block;
+	margin: 20px 0px;
+}
+section ul{
+	list-style-type: none;
+	list-style-position: inside;
+	text-indent: 2em;
+	line-height: 27px;
+}
+
+section figure{
+	width: 150px;
+	padding: 8px;
+	margin: 20px 0px;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	position: relative;
+	left: 50px;
+}
+section figure img{
+	width: 150px;
+}
+
+section ol{
+	position: relative;
+	left:40px;
+	line-height: 27px;
+}
+
+section table{
+	width: 100%;
+	border-collapse: collapse;
+}
+section th,section td{ 
+	border: 1px solid #d3d3d3;
+	text-align: left;
+	padding: 3px 5px;
+	margin: 0px;
+}
+section th{
+	background-color: #000;
+	color: white;
+}
+section tfoot{
+	background-color: #d3d3d3;
+}
+
+
+/*aside*/
+.aside_t{
+	position: relative;
+	left:280px;
+	top: 30px;
+	font-size: 12px;
+}
+.aside_t td{
+	padding: 5px;
+	margin: 10px;
+	vertical-align: top;
+}
+.aside_t .th{
+	text-align: right;
+}
+.aside_t .tip{
+	color: gray;
+	display: block;
+	margin-bottom: 10px;
+}
+.aside_t textarea{
+	font-size: 14px;
+}
+input[type=text],
+input[type=password],
+textarea{
+	padding: 4px;
+	border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus{
+	border: 1px solid #fafafa;
+	box-shadow: 0px 0px 5px  #007eef;
+}
+#submit{
+	width: 100%;
+	margin: 35px 0px 0px 0px;
+	background-color: #06f;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0px;
+	border-radius: 10px;
+}
+#submit:hover{
+	background-color: #006;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 80px;
+	line-height: 50px;
+	background-color: #000;
+	font-size: 14px;
+}
